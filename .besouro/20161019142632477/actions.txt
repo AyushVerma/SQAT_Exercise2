@@ -232,3 +232,25 @@ RefactoringAction 1476882673346 TestPlanetExplorer.java RENAME test_explorerPlac
 RefactoringAction 1476882675357 TestPlanetExplorer.java RENAME test_explorerPlace_Obstaccle()=>void test_explorerPlace_Obstacle() METHOD
 RefactoringAction 1476882684370 TestPlanetExplorer.java RENAME test_explorerPlace_Obstacle()=>void test_explorerPlace_Obstacles() METHOD
 EditAction 1476883141146 TestPlanetExplorer.java 1744 9 21 8
+CompilationAction 1476883142769 TestPlanetExplorer.java
+CompilationAction 1476883142770 TestPlanetExplorer.java
+UnitTestCaseAction 1476883143135 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883143136 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883168247 PlanetExplorer.java ADD Object isObstacle(Point) METHOD
+RefactoringAction 1476883201071 PlanetExplorer.java ADD List<Point> ob FIELD
+RefactoringAction 1476883203091 PlanetExplorer.java RENAME ob=>List<Point> obs FIELD
+RefactoringAction 1476883204602 PlanetExplorer.java RENAME obs=>List<Point> obst FIELD
+RefactoringAction 1476883212615 PlanetExplorer.java RENAME obst=>List<Point> obstacles FIELD
+RefactoringAction 1476883232992 PlanetExplorer.java ADD import java.awt.List IMPORT
+RefactoringAction 1476883259735 PlanetExplorer.java REMOVE import java.awt.List IMPORT
+RefactoringAction 1476883264995 PlanetExplorer.java ADD import java.util.List IMPORT
+RefactoringAction 1476883298858 PlanetExplorer.java REMOVE PlanetExplorer(int, int) METHOD
+RefactoringAction 1476883358995 PlanetExplorer.java ADD PlanetExplorer(int, int) METHOD
+RefactoringAction 1476883503167 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1476883510687 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1476883522228 PlanetExplorer.java ADD int i FIELD
+RefactoringAction 1476883522230 PlanetExplorer.java ADD String getStatus()/2 METHOD
+RefactoringAction 1476883527772 PlanetExplorer.java ADD PlanetExplorer(int, int) METHOD
+RefactoringAction 1476883527774 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1476883535436 TestPlanetExplorer.java REMOVE test_explorerPlace_Obstacles() METHOD
+EditAction 1476883544369 PlanetExplorer.java 3538 10 14 0
