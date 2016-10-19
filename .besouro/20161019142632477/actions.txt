@@ -10,3 +10,6 @@ RefactoringAction 1476877500347 PlanetExplorer.java ADD Point getGridSize() METH
 EditAction 1476877610809 PlanetExplorer.java 1447 4 3 0
 EditAction 1476877615693 TestPlanetExplorer.java 265 1 3 0
 EditAction 1476877688393 TestPlanetExplorer.java 311 1 4 1
+UnitTestCaseAction 1476877690270 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877690271 TestPlanetExplorer.java OK
+EditAction 1476877698145 TestPlanetExplorer.java 310 1 4 1
