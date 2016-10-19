@@ -63,7 +63,7 @@ public class PlanetExplorer {
 			case 'W':  this.position.x -= 1;
 			           break;
 			}
-			return getStatus();
+
 		}
 		else if(command.equals("b")) {
 			
@@ -77,7 +77,7 @@ public class PlanetExplorer {
 			case 'W':  this.position.x += 1;
 			           break;
 			}
-			return getStatus();
+
 		}
 		
 		return getStatus();
