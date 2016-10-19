@@ -105,3 +105,4 @@ UnitTestCaseAction 1476879215638 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476879215639 TestPlanetExplorer.java OK
 RefactoringAction 1476879339653 PlanetExplorer.java ADD String getStatus() METHOD
 EditAction 1476879347457 PlanetExplorer.java 2032 5 7 0
+EditAction 1476879349107 TestPlanetExplorer.java 665 3 8 3
