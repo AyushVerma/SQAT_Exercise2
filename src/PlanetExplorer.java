@@ -63,7 +63,21 @@ public class PlanetExplorer {
 			case 'W':  this.position.x -= 1;
 			           break;
 			}
-
+			return getStatus();
+		}
+		else if(command.equals("b")) {
+			
+			switch(facing) {
+			case 'N':  this.position.y -= 1;
+					   break;
+			case 'E':  this.position.x -= 1;
+			           break;
+			case 'S':  this.position.y += 1;
+			   		   break;
+			case 'W':  this.position.x += 1;
+			           break;
+			}
+			return getStatus();
 		}
 		
 		return getStatus();
