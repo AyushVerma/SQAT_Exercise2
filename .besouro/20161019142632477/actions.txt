@@ -177,3 +177,8 @@ RefactoringAction 1476881359967 PlanetExplorer.java ADD void navigate(String, in
 RefactoringAction 1476881404661 PlanetExplorer.java RENAME navigate(String, int)=>void navigate(char, int) METHOD
 RefactoringAction 1476881408178 PlanetExplorer.java RENAME navigate(char, int)=>void navigate(char) METHOD
 EditAction 1476881497940 PlanetExplorer.java 3119 10 13 0
+UnitTestCaseAction 1476881516090 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881516091 TestPlanetExplorer.java OK
+RefactoringAction 1476881520640 TestPlanetExplorer.java ADD void test_explorerMove_Forward()/2 METHOD
+RefactoringAction 1476881579264 TestPlanetExplorer.java RENAME test_explorerMove_Forward()/2=>void test_explorerMove_navigate() METHOD
+EditAction 1476881583835 TestPlanetExplorer.java 1396 7 16 6
