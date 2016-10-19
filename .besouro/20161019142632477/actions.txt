@@ -51,3 +51,7 @@ RefactoringAction 1476878377248 TestPlanetExplorer.java RENAME test_initialLandi
 RefactoringAction 1476878380269 TestPlanetExplorer.java RENAME test_initialLandingStatus_0()=>void test_initialLandingStatus_0_ FIELD
 EditAction 1476878486292 PlanetExplorer.java 1693 4 6 0
 EditAction 1476878488012 TestPlanetExplorer.java 503 2 4 1
+CompilationAction 1476878489340 TestPlanetExplorer.java
+UnitTestCaseAction 1476878493848 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878493849 TestPlanetExplorer.java FAIL
+EditAction 1476878501280 TestPlanetExplorer.java 503 2 4 1
