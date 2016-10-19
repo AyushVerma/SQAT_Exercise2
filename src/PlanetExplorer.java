@@ -41,28 +41,37 @@ public class PlanetExplorer {
 			return getStatus();
 			
 		}
-		else if(command.equals("r")) {
+		
+		for(int i=0; i<command.length(); ++i) {
+			navigate(command.charAt(i));
+		}
+		
+		return getStatus();
+	}
+
+	private void navigate(char command) {
+		
+		if(command =='r') {
 			
 			turnRight();
 
 		}
-		else if(command.equals("l")) {
+		else if(command =='l') {
 			
 			turnLeft();
 
 		}
-		else if(command.equals("f")) {
+		else if(command =='f') {
 			
 			moveForward();
 
 		}
-		else if(command.equals("b")) {
+		else if(command =='b') {
 			
 			moveBackward();
 
 		}
 		
-		return getStatus();
 	}
 
 	private void moveForward() {

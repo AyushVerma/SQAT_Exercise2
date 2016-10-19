@@ -21,36 +21,36 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
 		
-		assertEquals("(0,0,N)", pe.navigate(""));
+		assertEquals("(0,0,N)", pe.executeCommand(""));
 	}
 	
 	@Test
 	public void test_explorerTurnsTO_Right_() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,0,E)", pe.navigate("r"));
+		assertEquals("(0,0,E)", pe.executeCommand("r"));
 	}
 	
 	@Test
 	public void test_explorerTurnsTO_Left_() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,0,W)", pe.navigate("l"));
+		assertEquals("(0,0,W)", pe.executeCommand("l"));
 	}
 	
 	@Test
 	public void test_explorerMove_Forward() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,1,N)", pe.navigate("f"));
+		assertEquals("(0,1,N)", pe.executeCommand("f"));
 	}
 	
 	@Test
 	public void test_explorerMove_Backward() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100);
-		pe.navigate("f");
-		pe.navigate("f");
-		assertEquals("(0,1,N)", pe.navigate("b"));
+		pe.executeCommand("f");
+		pe.executeCommand("f");
+		assertEquals("(0,1,N)", pe.executeCommand("b"));
 	}
 }

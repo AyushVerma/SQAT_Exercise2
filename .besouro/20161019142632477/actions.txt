@@ -170,3 +170,10 @@ EditAction 1476880858284 PlanetExplorer.java 3018 9 11 0
 UnitTestCaseAction 1476880862588 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880862589 TestPlanetExplorer.java OK
 EditAction 1476881308373 TestPlanetExplorer.java 1161 6 16 6
+CompilationAction 1476881309701 TestPlanetExplorer.java
+CompilationAction 1476881339098 TestPlanetExplorer.java
+RefactoringAction 1476881340032 PlanetExplorer.java RENAME navigate(char)=>String executeCommand(String) METHOD
+RefactoringAction 1476881359967 PlanetExplorer.java ADD void navigate(String, int) METHOD
+RefactoringAction 1476881404661 PlanetExplorer.java RENAME navigate(String, int)=>void navigate(char, int) METHOD
+RefactoringAction 1476881408178 PlanetExplorer.java RENAME navigate(char, int)=>void navigate(char) METHOD
+EditAction 1476881497940 PlanetExplorer.java 3119 10 13 0
