@@ -81,7 +81,7 @@ public class PlanetExplorer {
 		case 'E':  this.position.x = (this.position.x + 1) % 100;
 		           break;
 		case 'S':  this.position.y = (this.position.y - 1) % 100;
-		           if(this.position.y<0) this.position.y += 100
+		           if(this.position.y<0) this.position.y += 100;
 		   		   break;
 		case 'W':  this.position.x = (this.position.x - 1) % 100;
                    if(this.position.x<0) this.position.x += 100;
