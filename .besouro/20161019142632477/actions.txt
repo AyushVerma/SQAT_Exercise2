@@ -254,3 +254,6 @@ RefactoringAction 1476883527772 PlanetExplorer.java ADD PlanetExplorer(int, int)
 RefactoringAction 1476883527774 PlanetExplorer.java ADD String executeCommand(String) METHOD
 RefactoringAction 1476883535436 TestPlanetExplorer.java REMOVE test_explorerPlace_Obstacles() METHOD
 EditAction 1476883544369 PlanetExplorer.java 3538 10 14 0
+CompilationAction 1476883546093 TestPlanetExplorer.java
+CompilationAction 1476883546094 TestPlanetExplorer.java
+EditAction 1476883546137 TestPlanetExplorer.java 1750 8 21 8
