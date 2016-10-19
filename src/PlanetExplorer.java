@@ -40,16 +40,7 @@ public class PlanetExplorer {
 			return getStatus();
 		}
 		else if(command.equals("r")) {
-			switch(facing) {
-			case 'N':  facing = 'E';
-					   break;
-			case 'E':  facing = 'S';
-			           break;
-			case 'S':  facing = 'W';
-			   		   break;
-			case 'W':  facing = 'N';
-			           break;
-			}
+			turnRight();
 			return getStatus();
 		}
 		else if(command.equals("l")) {
@@ -58,6 +49,19 @@ public class PlanetExplorer {
 		}
 		
 		return null;
+	}
+
+	private void turnRight() {
+		switch(facing) {
+		case 'N':  facing = 'E';
+				   break;
+		case 'E':  facing = 'S';
+		           break;
+		case 'S':  facing = 'W';
+		   		   break;
+		case 'W':  facing = 'N';
+		           break;
+		}
 	}
 
 	private void turnLeft() {
