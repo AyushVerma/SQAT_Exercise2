@@ -52,6 +52,19 @@ public class PlanetExplorer {
 			}
 			return getStatus();
 		}
+		else if(command.equals("l")) {
+			switch(facing) {
+			case 'N':  facing = 'W';
+					   break;
+			case 'E':  facing = 'N';
+			           break;
+			case 'S':  facing = 'E';
+			   		   break;
+			case 'W':  facing = 'S';
+			           break;
+			}
+			return getStatus();
+		}
 		
 		return null;
 	}
