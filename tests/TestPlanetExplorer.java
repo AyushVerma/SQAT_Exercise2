@@ -68,5 +68,15 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
 		assertEquals("(0,99,N)", pe.executeCommand("b"));
+		
+	}
+	
+	@Test
+	public void test_explorerPlace_Obstacles() {
+		
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "(1,1)(4,5)");
+		
+		assertEquals(true, pe.isObstacle(new Point(1,1));
+		
 	}
 }

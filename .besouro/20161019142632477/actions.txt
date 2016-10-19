@@ -221,3 +221,14 @@ EditAction 1476882567909 TestPlanetExplorer.java 1556 8 21 8
 UnitTestCaseAction 1476882569593 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882569594 TestPlanetExplorer.java FAIL
 EditAction 1476882573993 TestPlanetExplorer.java 1556 8 21 8
+UnitTestCaseAction 1476882575720 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476882575721 TestPlanetExplorer.java OK
+RefactoringAction 1476882639780 TestPlanetExplorer.java ADD void test_explorerMove_Wrapper()/2 METHOD
+RefactoringAction 1476882661294 TestPlanetExplorer.java RENAME test_explorerMove_Wrapper()/2=>void test_explorer_Wrapper() METHOD
+RefactoringAction 1476882663806 TestPlanetExplorer.java RENAME test_explorer_Wrapper()=>void test_explorerPlace_Wrapper() METHOD
+RefactoringAction 1476882666819 TestPlanetExplorer.java RENAME test_explorerPlace_Wrapper()=>void test_explorerPlace_() METHOD
+RefactoringAction 1476882670331 TestPlanetExplorer.java RENAME test_explorerPlace_()=>void test_explorerPlace_Obstacv() METHOD
+RefactoringAction 1476882673346 TestPlanetExplorer.java RENAME test_explorerPlace_Obstacv()=>void test_explorerPlace_Obstaccle() METHOD
+RefactoringAction 1476882675357 TestPlanetExplorer.java RENAME test_explorerPlace_Obstaccle()=>void test_explorerPlace_Obstacle() METHOD
+RefactoringAction 1476882684370 TestPlanetExplorer.java RENAME test_explorerPlace_Obstacle()=>void test_explorerPlace_Obstacles() METHOD
+EditAction 1476883141146 TestPlanetExplorer.java 1744 9 21 8
