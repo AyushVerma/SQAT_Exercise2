@@ -56,10 +56,10 @@ public class TestPlanetExplorer {
 	
 	
 	@Test
-	public void test_explorerMove_navigate() {
+	public void test_explorer_navigate() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		pe.executeCommand("ffrff")
-		assertEquals("(0,1,N)", pe.executeCommand(""));
+		pe.executeCommand("ffrff");
+		assertEquals("(2,2,E)", pe.executeCommand(""));
 	}
 }

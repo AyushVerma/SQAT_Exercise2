@@ -182,3 +182,11 @@ UnitTestSessionAction 1476881516091 TestPlanetExplorer.java OK
 RefactoringAction 1476881520640 TestPlanetExplorer.java ADD void test_explorerMove_Forward()/2 METHOD
 RefactoringAction 1476881579264 TestPlanetExplorer.java RENAME test_explorerMove_Forward()/2=>void test_explorerMove_navigate() METHOD
 EditAction 1476881583835 TestPlanetExplorer.java 1396 7 16 6
+CompilationAction 1476881585394 TestPlanetExplorer.java
+UnitTestCaseAction 1476881585715 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881585716 TestPlanetExplorer.java FAIL
+RefactoringAction 1476881591298 TestPlanetExplorer.java RENAME test_explorerMove_navigate()=>void test_explorer_navigate() METHOD
+CompilationAction 1476881601612 TestPlanetExplorer.java
+UnitTestCaseAction 1476881601995 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881601996 TestPlanetExplorer.java FAIL
+EditAction 1476881619474 TestPlanetExplorer.java 1393 7 19 7
