@@ -12,6 +12,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
 		Point gridSize = pe.getGridSize();;
 		
+		assertEquals(new Point(100,100), gridSize);
 
 	}
 }
