@@ -78,26 +78,34 @@ public class PlanetExplorer {
 		switch(facing) {
 		case 'N':  this.position.y = (this.position.y + 1) % 100;
 				   break;
-		case 'E':  this.position.x += 1;
+		case 'E':  this.position.x = (this.position.x + 1) % 100;
 		           break;
-		case 'S':  this.position.y -= 1;
+		case 'S':  this.position.y = (this.position.y - 1) % 100;
+		           if(this.position.y<0) this.position.y += 100
 		   		   break;
-		case 'W':  this.position.x -= 1;
+		case 'W':  this.position.x = (this.position.x - 1) % 100;
+                   if(this.position.x<0) this.position.x += 100;
 		           break;
 		}
 	}
 
 	private void moveBackward() {
+		
 		switch(facing) {
-		case 'N':  this.position.y = (this.position.y-1) % 100;
+		case 'N':  this.position.y = (this.position.y - 1) % 100;
 				   if(this.position.y<0) this.position.y += 100;
 				   break;
-		case 'E':  this.position.x -= 1;
+				   
+		case 'E':  this.position.x = (this.position.x - 1) % 100;
+		           if(this.position.x<0) this.position.x += 100;
 		           break;
-		case 'S':  this.position.y += 1;
+		           
+		case 'S':  this.position.y = (this.position.y + 1) % 100;
 		   		   break;
-		case 'W':  this.position.x += 1;
+		   		   
+		case 'W':  this.position.x = (this.position.x + 1) % 100;
 		           break;
+		           
 		}
 	}
 
