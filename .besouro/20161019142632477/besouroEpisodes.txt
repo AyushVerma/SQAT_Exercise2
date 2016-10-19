@@ -139,3 +139,6 @@
 1476881621494 test-addition 2 100 true
 1476881621495 test-addition 1 100 true
 1476881621496 test-addition 1 100 true
+1476882129455 test-first 3 374 true
+1476882129456 test-first 3 374 true
+1476882129457 test-last 1 374 false

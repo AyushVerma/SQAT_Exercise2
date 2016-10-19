@@ -6,7 +6,7 @@ import java.awt.Point;
 
 public class PlanetExplorer {
 	Point gridSize = null;
-	Point position = null;
+	public Point position = null;
 	char facing;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
