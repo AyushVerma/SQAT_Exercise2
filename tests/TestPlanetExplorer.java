@@ -35,7 +35,7 @@ public class TestPlanetExplorer {
 	public void test_explorerTurnsTO_Left_() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,0,E)", pe.executeCommand("l"));
+		assertEquals("(0,0,W)", pe.executeCommand("l"));
 	}
 	
 }

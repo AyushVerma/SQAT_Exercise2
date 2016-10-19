@@ -114,3 +114,6 @@ RefactoringAction 1476879411605 TestPlanetExplorer.java ADD void test_explorerTu
 RefactoringAction 1476879427129 TestPlanetExplorer.java RENAME test_explorerTurnsTO_Right_()/2=>void test_explorerTurnsTO_Left_() METHOD
 EditAction 1476879438126 TestPlanetExplorer.java 829 4 10 4
 EditAction 1476879502271 PlanetExplorer.java 2304 5 7 0
+UnitTestCaseAction 1476879505067 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879505068 TestPlanetExplorer.java FAIL
+EditAction 1476879517425 TestPlanetExplorer.java 829 4 10 4
