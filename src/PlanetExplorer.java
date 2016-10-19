@@ -89,7 +89,7 @@ public class PlanetExplorer {
 
 	private void moveBackward() {
 		switch(facing) {
-		case 'N':  this.position.y -= 1;
+		case 'N':  this.position.y = (this.position.y-1) %100;
 				   break;
 		case 'E':  this.position.x -= 1;
 		           break;
