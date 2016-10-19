@@ -53,20 +53,24 @@ public class PlanetExplorer {
 			return getStatus();
 		}
 		else if(command.equals("l")) {
-			switch(facing) {
-			case 'N':  facing = 'W';
-					   break;
-			case 'E':  facing = 'N';
-			           break;
-			case 'S':  facing = 'E';
-			   		   break;
-			case 'W':  facing = 'S';
-			           break;
-			}
+			turnLeft();
 			return getStatus();
 		}
 		
 		return null;
+	}
+
+	private void turnLeft() {
+		switch(facing) {
+		case 'N':  facing = 'W';
+				   break;
+		case 'E':  facing = 'N';
+		           break;
+		case 'S':  facing = 'E';
+		   		   break;
+		case 'W':  facing = 'S';
+		           break;
+		}
 	}
 
 	private String getStatus() {

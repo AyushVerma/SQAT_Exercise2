@@ -117,3 +117,7 @@ EditAction 1476879502271 PlanetExplorer.java 2304 5 7 0
 UnitTestCaseAction 1476879505067 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879505068 TestPlanetExplorer.java FAIL
 EditAction 1476879517425 TestPlanetExplorer.java 829 4 10 4
+UnitTestCaseAction 1476879519414 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879519415 TestPlanetExplorer.java OK
+RefactoringAction 1476879679122 PlanetExplorer.java ADD void turnLeft() METHOD
+EditAction 1476879679129 PlanetExplorer.java 2340 6 8 0
