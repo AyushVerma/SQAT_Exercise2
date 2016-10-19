@@ -42,7 +42,7 @@ public class TestPlanetExplorer {
 	public void test_explorerMove_Forward() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,0,N)", pe.executeCommand("f"));
+		assertEquals("(1,0,N)", pe.executeCommand("f"));
 	}
 	
 }
