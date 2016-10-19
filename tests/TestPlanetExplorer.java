@@ -67,6 +67,6 @@ public class TestPlanetExplorer {
 	public void test_explorerMove_Wrapper() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
-		assertEquals("(0,99,N)", pe.executeCommand("f"));
+		assertEquals("(0,99,N)", pe.executeCommand("b"));
 	}
 }
