@@ -67,20 +67,24 @@ public class PlanetExplorer {
 		}
 		else if(command.equals("b")) {
 			
-			switch(facing) {
-			case 'N':  this.position.y -= 1;
-					   break;
-			case 'E':  this.position.x -= 1;
-			           break;
-			case 'S':  this.position.y += 1;
-			   		   break;
-			case 'W':  this.position.x += 1;
-			           break;
-			}
+			moveBackward();
 
 		}
 		
 		return getStatus();
+	}
+
+	private void moveBackward() {
+		switch(facing) {
+		case 'N':  this.position.y -= 1;
+				   break;
+		case 'E':  this.position.x -= 1;
+		           break;
+		case 'S':  this.position.y += 1;
+		   		   break;
+		case 'W':  this.position.x += 1;
+		           break;
+		}
 	}
 
 	private void turnRight() {

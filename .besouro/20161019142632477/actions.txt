@@ -159,3 +159,7 @@ EditAction 1476880700859 TestPlanetExplorer.java 1203 6 16 6
 UnitTestCaseAction 1476880702835 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880702836 TestPlanetExplorer.java OK
 EditAction 1476880717728 PlanetExplorer.java 2932 7 9 0
+UnitTestCaseAction 1476880719688 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880719689 TestPlanetExplorer.java OK
+RefactoringAction 1476880835748 PlanetExplorer.java ADD void moveBackward() METHOD
+EditAction 1476880835756 PlanetExplorer.java 2976 8 10 0
