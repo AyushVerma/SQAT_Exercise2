@@ -137,3 +137,9 @@ EditAction 1476880376844 TestPlanetExplorer.java 991 5 12 5
 UnitTestCaseAction 1476880378753 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880378755 TestPlanetExplorer.java FAIL
 EditAction 1476880399067 TestPlanetExplorer.java 991 5 12 5
+UnitTestCaseAction 1476880400781 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476880400782 TestPlanetExplorer.java OK
+RefactoringAction 1476880434385 TestPlanetExplorer.java ADD void test_explorerMove_Forward()/2 METHOD
+RefactoringAction 1476880442898 TestPlanetExplorer.java RENAME test_explorerMove_Forward()/2=>void test_explorerMove_Back() METHOD
+RefactoringAction 1476880445910 TestPlanetExplorer.java RENAME test_explorerMove_Back()=>void test_explorerMove_Backward() METHOD
+EditAction 1476880483205 TestPlanetExplorer.java 1202 6 12 5

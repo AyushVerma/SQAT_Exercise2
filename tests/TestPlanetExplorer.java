@@ -45,4 +45,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0,1,N)", pe.executeCommand("f"));
 	}
 	
+	@Test
+	public void test_explorerMove_Backward() {
+		
+		PlanetExplorer pe = new PlanetExplorer(100, 100);
+		pe.executeCommand("f");
+		pe.executeCommand("f")
+		assertEquals("(0,2,N)", pe.executeCommand("f"));
+	}
 }
