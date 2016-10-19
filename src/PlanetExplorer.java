@@ -1,9 +1,11 @@
+import java.awt.Point;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
 
 public class PlanetExplorer {
+	Point gridSize = null;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -14,6 +16,10 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	public PlanetExplorer(int i, int j) {
+		gridSize = new Point(i,j);
+	}
+
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -27,5 +33,9 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+
+	public Point getGridSize() {
+		return this.gridSize;
 	}
 }

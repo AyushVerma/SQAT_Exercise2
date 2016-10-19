@@ -1,3 +1,10 @@
 FileOpenedAction 1476876392567 PlanetExplorer.java 1270 2 1 0
 FileOpenedAction 1476877032003 TestPlanetExplorer.java 174 1 1 0
 EditAction 1476877089708 PlanetExplorer.java 1270 2 1 0
+UnitTestCaseAction 1476877092108 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877092110 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877304658 PlanetExplorer.java ADD PlanetExplorer(int, int) METHOD
+RefactoringAction 1476877418162 TestPlanetExplorer.java ADD import java.awt.Point IMPORT
+RefactoringAction 1476877450939 PlanetExplorer.java ADD import java.awt.Point IMPORT
+RefactoringAction 1476877500347 PlanetExplorer.java ADD Point getGridSize() METHOD
+EditAction 1476877610809 PlanetExplorer.java 1447 4 3 0
