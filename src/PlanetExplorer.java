@@ -36,7 +36,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if(command.equals("")) {
-			return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +String.valueOf(this.facing)+")";
+			return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +"," +String.valueOf(this.facing)+")";
 		}
 		
 		return null;
