@@ -3,8 +3,8 @@ import java.awt.Point;
 import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID: 139
+// Finish time: 16:27
 
 public class PlanetExplorer {
 	Point gridSize = null;
@@ -22,6 +22,7 @@ public class PlanetExplorer {
 		obstacl
 		
 	}*/
+	
 	
 	public PlanetExplorer(int i, int j) {
 		gridSize = new Point(i,j);
