@@ -196,3 +196,4 @@ RefactoringAction 1476881755392 TestPlanetExplorer.java ADD void test_explorerMo
 RefactoringAction 1476881761904 TestPlanetExplorer.java RENAME test_explorerMove_Forward()/2=>void test_explorerMove_() METHOD
 RefactoringAction 1476881764916 TestPlanetExplorer.java RENAME test_explorerMove_()=>void test_explorerMove_Wrapper() METHOD
 EditAction 1476881779973 PlanetExplorer.java 3141 10 13 0
+EditAction 1476881781791 TestPlanetExplorer.java 1555 8 21 8
