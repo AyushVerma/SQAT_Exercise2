@@ -71,3 +71,18 @@ EditAction 1476878584224 TestPlanetExplorer.java 502 2 6 2
 UnitTestCaseAction 1476878586037 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878586038 TestPlanetExplorer.java FAIL
 EditAction 1476878653038 TestPlanetExplorer.java 502 2 6 2
+UnitTestCaseAction 1476878654826 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878654827 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476878656934 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878656935 TestPlanetExplorer.java OK
+RefactoringAction 1476878667672 TestPlanetExplorer.java ADD void test_initialLandingStatus_0_0_N()/2 METHOD
+RefactoringAction 1476878733203 TestPlanetExplorer.java RENAME test_initialLandingStatus_0_0_N()/2=>void test_explorer() METHOD
+RefactoringAction 1476878736217 TestPlanetExplorer.java RENAME test_explorer()=>void test_explorerturns() METHOD
+RefactoringAction 1476878740231 TestPlanetExplorer.java RENAME test_explorerturns()=>void test_explorerTurns() METHOD
+RefactoringAction 1476878753746 TestPlanetExplorer.java RENAME test_explorerTurns()=>void test_explorerTurnsTO() METHOD
+RefactoringAction 1476878761760 TestPlanetExplorer.java RENAME test_explorerTurnsTO()=>void test_explorerTurnsTON() METHOD
+RefactoringAction 1476878766274 TestPlanetExplorer.java RENAME test_explorerTurnsTON()=>void test_explorerTurnsTON_E_() METHOD
+RefactoringAction 1476878780288 TestPlanetExplorer.java RENAME test_explorerTurnsTON_E_()=>void test_explorerTurnsTO_N_E_() METHOD
+RefactoringAction 1476878790802 TestPlanetExplorer.java RENAME test_explorerTurnsTO_N_E_()=>void test_explorerTurnsTO_E_() METHOD
+RefactoringAction 1476878798815 TestPlanetExplorer.java RENAME test_explorerTurnsTO_E_()=>void test_explorerTurnsTO_East_() METHOD
+EditAction 1476878833273 TestPlanetExplorer.java 668 3 8 3

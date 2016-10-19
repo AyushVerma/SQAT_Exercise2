@@ -113,3 +113,5 @@
 1476878572538 test-first 1 722 true
 1476878572539 test-first 1 722 true
 1476878572540 test-last 1 722 false
+1476878654827 regression 2 70 true
+1476878656935 regression 1 0 true
