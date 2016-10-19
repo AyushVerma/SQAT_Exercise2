@@ -25,10 +25,17 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_explorerTurnsTO_East_() {
+	public void test_explorerTurnsTO_Right_() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100, 100); 
 		assertEquals("(0,0,E)", pe.executeCommand("r"));
+	}
+	
+	@Test
+	public void test_explorerTurnsTO_Left_() {
+		
+		PlanetExplorer pe = new PlanetExplorer(100, 100); 
+		assertEquals("(0,0,E)", pe.executeCommand("l"));
 	}
 	
 }
