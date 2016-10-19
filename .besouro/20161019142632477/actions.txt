@@ -87,3 +87,6 @@ RefactoringAction 1476878790802 TestPlanetExplorer.java RENAME test_explorerTurn
 RefactoringAction 1476878798815 TestPlanetExplorer.java RENAME test_explorerTurnsTO_E_()=>void test_explorerTurnsTO_East_() METHOD
 EditAction 1476878833273 TestPlanetExplorer.java 668 3 8 3
 EditAction 1476879116242 PlanetExplorer.java 2077 4 6 0
+UnitTestCaseAction 1476879118147 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879118148 TestPlanetExplorer.java FAIL
+EditAction 1476879131664 TestPlanetExplorer.java 668 3 8 3
