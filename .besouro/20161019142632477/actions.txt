@@ -16,3 +16,15 @@ EditAction 1476877698145 TestPlanetExplorer.java 310 1 4 1
 UnitTestCaseAction 1476877700144 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877700145 TestPlanetExplorer.java FAIL
 EditAction 1476877719965 TestPlanetExplorer.java 311 1 4 1
+UnitTestCaseAction 1476877721968 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877721969 TestPlanetExplorer.java OK
+RefactoringAction 1476877738315 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_crea() METHOD
+RefactoringAction 1476877745331 TestPlanetExplorer.java RENAME test_crea()=>void test_define() METHOD
+RefactoringAction 1476877748847 TestPlanetExplorer.java RENAME test_define()=>void test_definePlanet() METHOD
+RefactoringAction 1476877750861 TestPlanetExplorer.java RENAME test_definePlanet()=>void test_definePlanetWith() METHOD
+RefactoringAction 1476877753374 TestPlanetExplorer.java RENAME test_definePlanetWith()=>void test_definePlanetWithSize() METHOD
+RefactoringAction 1476877755388 TestPlanetExplorer.java RENAME test_definePlanetWithSize()=>void test_definePlanetWithSize_() METHOD
+RefactoringAction 1476877756902 TestPlanetExplorer.java RENAME test_definePlanetWithSize_()=>void test_definePlanetWithSize_100() METHOD
+RefactoringAction 1476877761416 TestPlanetExplorer.java RENAME test_definePlanetWithSize_100()=>void test_definePlanetWithSize_100_by() METHOD
+RefactoringAction 1476877763430 TestPlanetExplorer.java RENAME test_definePlanetWithSize_100_by()=>void test_definePlanetWithSize_100_by_100() METHOD
+EditAction 1476877777638 TestPlanetExplorer.java 334 1 4 1
