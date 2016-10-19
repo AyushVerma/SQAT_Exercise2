@@ -32,3 +32,21 @@ EditAction 1476877810151 TestPlanetExplorer.java 330 1 4 1
 UnitTestCaseAction 1476877812177 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877812178 TestPlanetExplorer.java FAIL
 EditAction 1476877822582 TestPlanetExplorer.java 330 1 4 1
+UnitTestCaseAction 1476877824611 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877824612 TestPlanetExplorer.java OK
+RefactoringAction 1476877850117 TestPlanetExplorer.java ADD void test_definePlanetWithSize_100_by_100()/2 METHOD
+RefactoringAction 1476877883417 PlanetExplorer.java ADD Point p FIELD
+RefactoringAction 1476877886435 PlanetExplorer.java RENAME p=>Point pos FIELD
+RefactoringAction 1476877889454 PlanetExplorer.java RENAME pos=>Point position FIELD
+RefactoringAction 1476877982076 PlanetExplorer.java ADD char f FIELD
+RefactoringAction 1476877984094 PlanetExplorer.java RENAME f=>char face FIELD
+RefactoringAction 1476877985608 PlanetExplorer.java RENAME face=>char fac FIELD
+RefactoringAction 1476877989124 PlanetExplorer.java RENAME fac=>char facing FIELD
+RefactoringAction 1476878358179 TestPlanetExplorer.java RENAME test_definePlanetWithSize_100_by_100()/2=>void test_initial() METHOD
+RefactoringAction 1476878364194 TestPlanetExplorer.java RENAME test_initial()=>void test_initialLandingSt() METHOD
+RefactoringAction 1476878365708 TestPlanetExplorer.java RENAME test_initialLandingSt()=>void test_initialLandingStatu() METHOD
+RefactoringAction 1476878367720 TestPlanetExplorer.java RENAME test_initialLandingStatu()=>void test_initialLandingStatus() METHOD
+RefactoringAction 1476878370235 TestPlanetExplorer.java RENAME test_initialLandingStatus()=>void test_initialLandingStatus_() METHOD
+RefactoringAction 1476878377248 TestPlanetExplorer.java RENAME test_initialLandingStatus_()=>void test_initialLandingStatus_0() METHOD
+RefactoringAction 1476878380269 TestPlanetExplorer.java RENAME test_initialLandingStatus_0()=>void test_initialLandingStatus_0_ FIELD
+EditAction 1476878486292 PlanetExplorer.java 1693 4 6 0
