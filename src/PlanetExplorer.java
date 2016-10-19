@@ -37,18 +37,36 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")) {
+			
 			return getStatus();
+			
 		}
 		else if(command.equals("r")) {
+			
 			turnRight();
-			return getStatus();
+
 		}
 		else if(command.equals("l")) {
+			
 			turnLeft();
-			return getStatus();
+
+		}
+		else if(command.equals("f")) {
+			
+			switch(facing) {
+			case 'N':  this.position.y += 1;
+					   break;
+			case 'E':  this.position.x += 1;
+			           break;
+			case 'S':  this.position.y -= 1;
+			   		   break;
+			case 'W':  this.position.x -= 1;
+			           break;
+			}
+
 		}
 		
-		return null;
+		return getStatus();
 	}
 
 	private void turnRight() {
@@ -78,7 +96,7 @@ public class PlanetExplorer {
 	}
 
 	private String getStatus() {
-		return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +"," +String.valueOf(this.facing)+")";
+		return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) + "," +String.valueOf(this.facing) + ")";
 	}
 
 	public Point getGridSize() {

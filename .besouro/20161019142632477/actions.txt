@@ -123,3 +123,6 @@ RefactoringAction 1476879679122 PlanetExplorer.java ADD void turnLeft() METHOD
 EditAction 1476879679129 PlanetExplorer.java 2340 6 8 0
 RefactoringAction 1476879701700 PlanetExplorer.java ADD void turnRight() METHOD
 EditAction 1476879701707 PlanetExplorer.java 2378 7 9 0
+UnitTestCaseAction 1476879707722 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879707723 TestPlanetExplorer.java OK
+EditAction 1476880310692 PlanetExplorer.java 2646 7 9 0
