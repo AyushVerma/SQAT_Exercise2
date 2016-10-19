@@ -101,3 +101,7 @@ CompilationAction 1476879183152 TestPlanetExplorer.java
 UnitTestCaseAction 1476879183495 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879183496 TestPlanetExplorer.java FAIL
 EditAction 1476879213700 TestPlanetExplorer.java 691 3 9 3
+UnitTestCaseAction 1476879215638 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879215639 TestPlanetExplorer.java OK
+RefactoringAction 1476879339653 PlanetExplorer.java ADD String getStatus() METHOD
+EditAction 1476879347457 PlanetExplorer.java 2032 5 7 0

@@ -37,7 +37,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command.equals("")) {
-			return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +"," +String.valueOf(this.facing)+")";
+			return getStatus();
 		}
 		else if(command.equals("r")) {
 			switch(facing) {
@@ -50,13 +50,19 @@ public class PlanetExplorer {
 			case 'W':  facing = 'N';
 			           break;
 			}
-			return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +"," +String.valueOf(this.facing)+")";
+			return getStatus();
 		}
 		
 		return null;
 	}
 
+	private String getStatus() {
+		return "(" + String.valueOf(this.position.x) + "," + String.valueOf(this.position.y) +"," +String.valueOf(this.facing)+")";
+	}
+
 	public Point getGridSize() {
 		return this.gridSize;
 	}
+	
+
 }
